@@ -1,9 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://c01b68khdhba7"]
+[gd_scene load_steps=4 format=3 uid="uid://c01b68khdhba7"]
 
 [ext_resource type="PackedScene" uid="uid://j5xm44djyy3i" path="res://scenes/player/player.tscn" id="1_djf32"]
 [ext_resource type="TileSet" uid="uid://bm5hqjo7kliuw" path="res://resources/tileset.tres" id="1_flpbv"]
+[ext_resource type="PackedScene" uid="uid://cdje1fedpgii" path="res://scenes/game_camera/game_camera.tscn" id="1_ibuam"]
 
 [node name="main" type="Node"]
+
+[node name="GameCamera" parent="." instance=ExtResource("1_ibuam")]
+position = Vector2(1, 0)
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(1, 0)

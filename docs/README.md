@@ -12,6 +12,10 @@ Creating a 2D Arena Survival Roguelike Game in Godot 4 by following a Udemy cour
 
 ![Creating a TileMap](assets/creating-tilemap.gif)
 
+### Game Camera
+
+![Game Camera](assets/game-camera.gif)
+
 ## References
 
 - [GDScript Reference](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html)
